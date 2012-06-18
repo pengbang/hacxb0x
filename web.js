@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-	response.send('FUCK YOU WORLD F.U.C.K Y.O.U W.o.r.l.d.');
+	response.send('its all about da vitamins');
 });
 
 var port = process.env.PORT || 5000;
